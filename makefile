@@ -1,7 +1,9 @@
-README.md:
+README.md: guessinggame.sh
 	echo "GUESSING GAME PROJECT" > README.md
-	echo "The number of lines of code in guessinggame.sh is: " >> README.md
+	echo " " >> README.md
+	echo "The number of lines of code in guessinggame.sh is as follows:" >> README.md
 	wc -l < guessinggame.sh >> README.md
-	ls -l README.md | cut -d ' ' -f 6,7,8 >> README.md
+	echo " " >> README.md
+	date >> README.md
 
 

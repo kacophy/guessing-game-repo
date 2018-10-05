@@ -9,8 +9,6 @@ file_number=$( files_in_directory )
 
 echo "Guess how many files are in the current directory."
 read response
-
-	
 			while  [[ $response -ne $file_number ]] 
 
 			do
@@ -34,8 +32,3 @@ read response
 	echo "Congratulations."
 
 fi
-
-
-
-
-
